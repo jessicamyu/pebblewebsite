@@ -157,19 +157,30 @@ html {
   text-align: center;
 }
 .fh5co-advantages-outer .fh5co-advantages-grid-columns {
-  margin-top: 120px;
+  margin-top: 70px;
 }
 .fh5co-advantages-outer .fh5co-advantages-grid-columns .col-sm-4 .grid-image {
   width: 30%;
-  float: left;
+  float: center;
   padding-right: 30px;
   position: relative;
   top: 1px;
   color: #648cff;
 }
+.col-sm-3 img {
+  padding-bottom: 20px;
+  width: 225px;
+    height: 245px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.col-sm-3 {
+  text-align: center;
+}
 .fh5co-advantages-outer .fh5co-advantages-grid-columns .col-sm-4 .grid-title {
-  float: left;
-  font-size: 20px;
+  text-align: center;
+  font-size: 1.5rem !important;
   font-weight: 600;
 }
 .fh5co-advantages-outer .fh5co-advantages-grid-columns .col-sm-4 .grid-desc {
@@ -250,7 +261,8 @@ html {
   margin-top: 80px;
 }
 .fh5co-features-outer .col-sm-6 img {
-  height: 550px;
+  height: 300px;
+  width: 300px;
 }
 .fh5co-features-outer .sm-6-content {
   margin-top: 250px;
@@ -405,7 +417,7 @@ html {
    ========================================================================================================== */
 .fh5co-reviews-outer {
   width: 100%;
-  height: 400px;
+  height: 700px;
   padding: 70px;
   margin-top: 100px;
 }
@@ -638,7 +650,7 @@ html {
   }
 
   .fh5co-advantages-outer {
-    margin-top: 50px;
+    margin-top: 300px;
     padding-bottom: 0;
   }
 
@@ -654,6 +666,7 @@ html {
   }
 
   .fh5co-advantages-outer .fh5co-advantages-grid-columns .col-sm-4 .grid-title {
+    font-size: 2.5rem !important;
     float: none;
     text-align: center;
   }
@@ -874,6 +887,11 @@ html {
     overflow: hidden;
     padding-bottom: 50px;
     text-align: center;
+  }
+
+  .app-store-btn {
+    width: 400px !important;
+    height: 550px !important;
   }
 
   .overlay {
