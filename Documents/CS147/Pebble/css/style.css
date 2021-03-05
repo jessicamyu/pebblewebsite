@@ -223,7 +223,6 @@ html {
   padding: 70px;
 }
 
-
 .about-section h1 {
   color: #648cff;
   text-transform: uppercase;
@@ -236,26 +235,27 @@ html {
 
 .about-section h2 {
   color: #000000;
-  text-transform: uppercase;
   margin-bottom: 10px;
   display: block;
   float: none;
   text-align: center ;
   font-size: 20px;
-  font-weight: 600;
+  font-weight: bold;
 }
 
 .about-section p {
+  text-align: center;
   float: none;
   font-size: 13px;
   padding-right: 7%;
-  width: 70%;
-  color: #c7c7c7;
+  width: 100%;
+  color: #000000;
+  opacity: 0.6;
   margin-top: 10px;
   line-height: 1.87em;
 }
 
-.about-section .columns .col-sm-4 .img {
+.about-section .columns .col-sm-4 img {
     width: 60px;
     float: none;
     display: block;
@@ -266,12 +266,21 @@ html {
     top: 1px;
 }
 
-
+.about-section .row {
+  margin-top: 90px;
+}
 
 .about-section > h1, .about-section small {
+  margin-top: 30px;
   text-align: center;
   display: block;
 }
+
+.about-section .video {
+  margin-top: 0px !important;
+}
+
+
 .about-section .about-section {
   margin-top: 50px;
 }
@@ -317,6 +326,7 @@ html {
 .fh5co-features-outer .col-sm-6 img {
   height: 300px;
   width: 300px;
+  border-radius: 20px;
 }
 .fh5co-features-outer .sm-6-content {
   margin-top: 250px;
