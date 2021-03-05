@@ -12,12 +12,11 @@
   color: #648cff;
   text-transform: uppercase;
   font-size: 30px;
-  font-weight: 600;
+  font-weight: 1000;
   margin-bottom: 10px;
   text-align: center;
   display: block;
 }
-
 
 
 @import url("https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800");
@@ -149,34 +148,34 @@ html {
 /* ==========================================================================================================
 										ADVANTAGES
    ========================================================================================================== */
-.fh5co-advantages-outer {
+.team-section {
   padding: 70px;
   height: auto;
   width: 100%;
   overflow: hidden;
 }
-.fh5co-advantages-outer .span-perfect {
+.team-section .span-perfect {
   color: #648cff;
   text-transform: uppercase;
   font-size: 27px;
   letter-spacing: 1px;
 }
-.fh5co-advantages-outer .span-features {
+.team-section .span-features {
   text-transform: uppercase;
   font-size: 42px;
 }
-.fh5co-advantages-outer .second-title {
+.team-section .second-title {
   text-align: center;
   display: block;
 }
-.fh5co-advantages-outer small {
+.team-section small {
   display: block;
   text-align: center;
 }
-.fh5co-advantages-outer .fh5co-advantages-grid-columns {
+.team-section .columns {
   margin-top: 70px;
 }
-.fh5co-advantages-outer .fh5co-advantages-grid-columns .col-sm-4 .grid-image {
+.team-section .columns .col-sm-4 .grid-image {
   width: 30%;
   float: center;
   padding-right: 30px;
@@ -195,12 +194,12 @@ html {
 .col-sm-3 {
   text-align: center;
 }
-.fh5co-advantages-outer .fh5co-advantages-grid-columns .col-sm-4 .grid-title {
+.team-section .columns .col-sm-4 .grid-title {
   text-align: center;
   font-size: 1.5rem !important;
   font-weight: 600;
 }
-.fh5co-advantages-outer .fh5co-advantages-grid-columns .col-sm-4 .grid-desc {
+.team-section .columns .col-sm-4 .grid-desc {
   float: right;
   font-size: 13px;
   padding-right: 7%;
@@ -216,14 +215,16 @@ html {
 }
 
 /* ==========================================================================================================
-										SLIDER
+										ABOUT
    ========================================================================================================== */
-.fh5co-slider-outer {
+.about-section {
   width: 100%;
   height: auto;
   padding: 70px;
 }
-.fh5co-slider-outer h1 {
+
+
+.about-section h1 {
   color: #648cff;
   text-transform: uppercase;
   font-size: 30px;
@@ -232,28 +233,63 @@ html {
   text-align: center;
   display: block;
 }
-.fh5co-slider-outer > h1, .fh5co-slider-outer small {
+
+.about-section h2 {
+  color: #000000;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  display: block;
+  float: none;
+  text-align: center ;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.about-section p {
+  float: none;
+  font-size: 13px;
+  padding-right: 7%;
+  width: 70%;
+  color: #c7c7c7;
+  margin-top: 10px;
+  line-height: 1.87em;
+}
+
+.about-section .columns .col-sm-4 .img {
+    width: 60px;
+    float: none;
+    display: block;
+    margin: 0 auto;
+    padding-right: 0px;
+    margin-bottom: 20px;
+    position: relative;
+    top: 1px;
+}
+
+
+
+.about-section > h1, .about-section small {
   text-align: center;
   display: block;
 }
-.fh5co-slider-outer .fh5co-slider-outer {
+.about-section .about-section {
   margin-top: 50px;
 }
-.fh5co-slider-outer .carousel-left-arrow {
+.about-section .carousel-left-arrow {
   position: absolute;
   left: -100px;
   bottom: 250px;
   font-size: 60px;
   color: #ececec;
 }
-.fh5co-slider-outer .carousel-right-arrow {
+.about-section .carousel-right-arrow {
   position: absolute;
   right: -100px;
   bottom: 250px;
   font-size: 60px;
   color: #ececec;
 }
-.fh5co-slider-outer .item img {
+.about-section .item img {
   height: 400px;
   width: 200px;
   object-fit: contain;
@@ -668,12 +704,12 @@ html {
     margin-bottom: 40px;
   }
 
-  .fh5co-advantages-outer {
+  .team-section {
     margin-top: 300px;
     padding-bottom: 0;
   }
 
-  .fh5co-advantages-outer .fh5co-advantages-grid-columns .col-sm-4 .grid-image {
+  .team-section .columns .col-sm-4 .grid-image {
     width: 60px;
     float: none;
     display: block;
@@ -684,19 +720,19 @@ html {
     top: 1px;
   }
 
-  .fh5co-advantages-outer .fh5co-advantages-grid-columns .col-sm-4 .grid-title {
+  .team-section .columns .col-sm-4 .grid-title {
     font-size: 2.5rem !important;
     float: none;
     text-align: center;
   }
 
-  .fh5co-advantages-outer .fh5co-advantages-grid-columns .col-sm-4 .grid-desc {
+  .team-section .columns .col-sm-4 .grid-desc {
     float: none;
     width: 100%;
     text-align: center;
   }
 
-  .fh5co-slider-outer .fh5co-slider-outer {
+  .about-section .about-section {
     margin-top: 0px;
   }
 
@@ -738,7 +774,7 @@ html {
     float: none !important;
   }
 
-  .fh5co-slider-outer .carousel-right-arrow {
+  .about-section .carousel-right-arrow {
     position: absolute;
     right: -70px;
     bottom: 250px;
@@ -746,7 +782,7 @@ html {
     color: #ececec;
   }
 
-  .fh5co-slider-outer .carousel-left-arrow {
+  .about-section .carousel-left-arrow {
     position: absolute;
     left: -70px;
     bottom: 250px;
@@ -781,7 +817,7 @@ html {
     margin: 25px 5px;
   }
 
-  .fh5co-advantages-outer .second-title {
+  .team-section .second-title {
     margin-top: 60px;
   }
 
@@ -828,11 +864,11 @@ html {
     height: 800px;
   }
 
-  .fh5co-advantages-outer .fh5co-advantages-grid-columns {
+  .team-section .columns {
     margin-top: 40px;
   }
 
-  .fh5co-advantages-grid-columns .col-sm-4 {
+  .columns .col-sm-4 {
     -ms-flex: 0 0 100%;
     flex: 0 0 100%;
     width: 100%;
@@ -846,7 +882,7 @@ html {
     top: 310px;
   }
 
-  .fh5co-advantages-outer .second-title {
+  .team-section .second-title {
     margin-top: 60px;
   }
 
@@ -859,17 +895,17 @@ html {
     margin-top: 50px;
   }
 
-  .fh5co-slider-outer {
+  .about-section {
     padding: 0;
   }
 
-  .fh5co-slider-outer .carousel-left-arrow {
+  .about-section .carousel-left-arrow {
     left: 50px;
     font-size: 50px;
     bottom: 190px;
   }
 
-  .fh5co-slider-outer .carousel-right-arrow {
+  .about-section .carousel-right-arrow {
     right: 50px;
     font-size: 50px;
     bottom: 190px;
@@ -884,7 +920,7 @@ html {
     text-align: center;
   }
 
-  .fh5co-slider-outer .item img {
+  .about-section .item img {
     height: 300px;
   }
 
@@ -991,11 +1027,11 @@ html {
     font-size: 22px;
   }
 
-  .fh5co-slider-outer .carousel-left-arrow {
+  .about-section .carousel-left-arrow {
     left: 0;
   }
 
-  .fh5co-slider-outer .carousel-right-arrow {
+  .about-section .carousel-right-arrow {
     right: 0;
   }
 
@@ -1013,7 +1049,7 @@ html {
     text-align: center;
   }
 
-  .fh5co-advantages-outer .span-perfect {
+  .team-section .span-perfect {
     margin-top: 80px;
     font-size: 18px;
     margin-bottom: 15px;
@@ -1022,7 +1058,7 @@ html {
     text-align: center;
   }
 
-  .fh5co-advantages-outer .span-features {
+  .team-section .span-features {
     font-size: 24px;
     display: block;
     width: 100%;
