@@ -57,16 +57,16 @@
 			<div class="collapse navbar-collapse" id="navbarSupportedContent">
 				<ul class="navbar-nav nav-items-center ml-auto mr-auto">
 					<li class="nav-item active">
-						<a class="nav-link" href="#">Intro <span class="sr-only">(current)</span></a>
+						<a class="nav-link" href="#" onclick="$('#about').goTo();return false;">About <span class="sr-only">(current)</span></a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#" onclick="$('#fh5co-features').goTo();return false;">The App</a>
+						<a class="nav-link" href="#" onclick="$('#process').goTo();return false;">The Process</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#" onclick="$('#fh5co-reviews').goTo();return false;">The Process</a>
+						<a class="nav-link" href="#" onclick="$('#team').goTo();return false;">Our Team</a>
 					</li>
 					<li class="nav-item">
-						<a class="nav-link" href="#"  onclick="$('#fh5co-download').goTo();return false;">The Team</a>
+						<a class="nav-link" href="#"  onclick="$('#fh5co-download').goTo();return false;">Download</a>
 					</li>
 				</ul>
 				<div class="social-icons-header">
@@ -81,7 +81,7 @@
 			<h1 class="animated fadeIn wow" data-wow-delay="0.4s">Pebble</h1>
 			<p class="animated fadeIn wow" data-wow-delay="0.67s">Learn more for your growing family! </p>
 			<button class="btn btn-md download-btn-first wow fadeInLeft animated" data-wow-delay="0.85s" onclick="$('#fh5co-download').goTo();return false;">Try App</button>
-			<button class="btn btn-md features-btn-first animated fadeInLeft wow" data-wow-delay="0.95s" onclick="$('#fh5co-features').goTo();return false;">Details</button>
+			<button class="btn btn-md features-btn-first animated fadeInLeft wow" data-wow-delay="0.95s" onclick="$('#about').goTo();return false;">Details</button>
 			<img class="fh5co-hero-smartphone animated fadeInRight wow" data-wow-delay="1s" src="img/pebblescreenshot.png" alt="Smartphone">
 		</div>
 
@@ -91,16 +91,20 @@
 
 
 <!-- ==========================================================================================================
-													 Features
+													 About
 		 ========================================================================================================== -->
 
-	<div class="fh5co-advantages-outer">
+	<div class="fh5co-advantages-outer" id="about">
 		<div class="container">
 			<h1 class="second-title">
 				<!-- <span class="span-perfect">Perfect</span> -->
-				<span class="span-features">Features</span>
+				<span class="span-features">About</span>
 			</h1>
-			<small>Something here</small>
+			<small>Pregnant people often wish their partners were more
+connected to the pregnancy process, and likewise, partners wish they had access to
+information to carry out their own research and better understand how they can be of
+support. Pebble is an app designed for pregnant individuals’ partners to easily acquire
+digestible information, tips, and recommendations customized for them.</small>
 
 			<div class="row fh5co-advantages-grid-columns wow animated fadeIn" data-wow-delay="0.36s">
 
@@ -134,7 +138,6 @@
 													  Concept Vid
 		 ========================================================================================================== -->
     <div class="fh5co-slider-outer wow fadeIn" data-wow-delay="0.36s">
-        <h1>Concept Video</h1>
         <div class="row justify-content-center">
 
 
@@ -168,11 +171,12 @@
 -->
 
 	<!-- ==========================================================================================================
-													 Tbe Process 
+													 The Process 
 		 ========================================================================================================== -->
 
-	<div class="curved-bg-div wow animated fadeIn" data-wow-delay="0.15s"></div>
+	<div id="process" class="curved-bg-div wow animated " data-wow-delay="0.15s"></div>
 	<div id="fh5co-features" class="fh5co-features-outer">
+		<h1> The Process </h1>
 		<div class="container">
 
 			<div class="row fh5co-features-grid-columns">
@@ -271,7 +275,7 @@
 													Team
 		 ========================================================================================================== -->
 
-	<div class="fh5co-advantages-outer" style="background-color:#f8f9fa;">
+	<div id="team" class="fh5co-advantages-outer" style="background-color:#f8f9fa;">
 		<div class="container" >
 			<h1 class="second-title"><span class="span-perfect">Our Team</span> <span class="span-features"></span></h1>
 
@@ -307,7 +311,7 @@
 	
 
 	<!-- ==========================================================================================================
-                                                 Try App
+                                                 Download
     ========================================================================================================== -->
 
 	<div id="fh5co-download" class="fh5co-bottom-outer">
@@ -340,10 +344,10 @@
 				<div class="column-2-3">
 					<nav class="footer-nav">
 						<ul>
-							<a href="#" onclick="$('#fh5co-hero-wrapper').goTo();return false;"><li>Intro</li></a>
-							<a href="#" onclick="$('#fh5co-features').goTo();return false;"><li>The App</li></a>
-							<a href="#" onclick="$('#fh5co-reviews').goTo();return false;"><li>The Process</li></a>
-							<a href="#" onclick="$('#fh5co-download').goTo();return false;"><li class="active">The Team</li></a>
+							<a href="#" onclick="$('#about').goTo();return false;"><li>About</li></a>
+							<a href="#" onclick="$('#process').goTo();return false;"><li>The Process</li></a>
+							<a href="#" onclick="$('#team').goTo();return false;"><li>Our Team</li></a>
+							<a href="#" onclick="$('#fh5co-download').goTo();return false;"><li class="active">Download</li></a>
 						</ul>
 					</nav>
 				</div>
