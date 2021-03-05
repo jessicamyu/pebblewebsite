@@ -3,6 +3,23 @@
 	Twitter: http://twitter.com/fh5co
 	URL: http://freehtml5.co
 */
+
+/* ==========================================================================================================
+                    PEBBLE
+   ========================================================================================================== */
+
+.headers {
+  color: #648cff;
+  text-transform: uppercase;
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  text-align: center;
+  display: block;
+}
+
+
+
 @import url("https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800");
 * {
   margin: 0px;
@@ -213,6 +230,7 @@ html {
   font-weight: 600;
   margin-bottom: 10px;
   text-align: center;
+  display: block;
 }
 .fh5co-slider-outer > h1, .fh5co-slider-outer small {
   text-align: center;
@@ -619,7 +637,7 @@ html {
   }
 
   .fh5co-hero-inner .fh5co-hero-smartphone {
-    position: absolute;
+    position: relative;
     right: -15px;
     top: 200px;
     height: 550px;
@@ -644,9 +662,10 @@ html {
     right: 0;
     margin-left: auto;
     margin-right: auto;
-    top: 270px;
+    /*top: 270px;*/
     height: 460px;
-    margin-top: 110px;
+    /*margin-top: 110px;*/
+    margin-bottom: 40px;
   }
 
   .fh5co-advantages-outer {
