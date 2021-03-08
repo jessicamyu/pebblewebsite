@@ -20,8 +20,24 @@
 
 .process-header {
   margin-top: 70px;
-
 }
+
+.process-footer {
+    height: 1px;
+    width: 60%;
+    margin: 0 auto;
+    border: 1px solid #DDDEE6;
+    display: block;
+    margin-top: 100px;
+  }
+
+ .fh5co-hero-inner h5 {
+    color: #FFFFFF;
+  }
+
+  .fh5co-hero-inner p {
+    color: #234197;
+  }
 
 @import url("https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800");
 * {
@@ -315,7 +331,7 @@ html {
 										FEATURES
    ========================================================================================================== */
 .curved-bg-div {
-  background: url("../img/curved-bgg.jpg") no-repeat;
+  background: url("../img/curved-bg2.jpeg") no-repeat;
   background-position: 0px -140px;
   background-size: cover;
   width: 100%;
