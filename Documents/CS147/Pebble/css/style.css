@@ -521,6 +521,7 @@ html {
 }
 .fh5co-bottom-outer .fh5co-bottom-inner {
   margin-top: 270px;
+
 }
 .fh5co-bottom-outer .fh5co-bottom-inner .col-sm-6 h1 {
   color: #fff;
@@ -551,8 +552,8 @@ html {
 
 .footer-outer {
   width: 100%;
-  padding: 10px;
-  height: 100px;
+  padding: 50px;
+  height: 250px;
   background: #2e3149;
   overflow: hidden;
 }
@@ -647,7 +648,7 @@ html {
   color: #565b87;
   text-align: center;
   font-size: 13px;
-  padding: 10px 0;
+  padding: 40px 0;
 }
 
 .google-play-btn {
