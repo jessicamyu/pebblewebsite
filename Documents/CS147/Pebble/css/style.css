@@ -39,6 +39,10 @@
     color: #234197;
   }
 
+  .fh5co-features-outer  .fh5co-features-grid-columns {
+  margin-left: 20px;
+  }
+
 @import url("https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800");
 * {
   margin: 0px;
