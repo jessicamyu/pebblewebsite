@@ -19,7 +19,7 @@
 }
 
 .process-header {
-  margin-top: 70px;
+  /*margin-top: 70px;*/
 }
 
 .process-footer {
@@ -43,11 +43,13 @@
   margin-left: 20px;
   }
 
-@import url("https://fonts.googleapis.com/css?family=Montserrat:200,300,400,500,600,700,800");
+@import url("https://fonts.googleapis.com/css?family=Nunito:200,300,400,500,600,700,800");
 * {
   margin: 0px;
   padding: 0px;
-  font-family: "Montserrat", "sans-serif";
+  font-family: "Nunito";
+  font-style: "normal";
+  font-weight: 100;
 }
 
 html {
@@ -346,6 +348,7 @@ html {
   width: 100%;
   height: auto;
   margin-top: -180px;
+  padding-bottom: 70px;
 }
 .fh5co-features-outer .col-sm-4 {
   margin-top: 80px;
