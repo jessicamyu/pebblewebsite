@@ -19,7 +19,7 @@
 }
 
 .process-header {
-  /*margin-top: 70px;*/
+  margin-top: 70px;
 }
 
 .process-footer {
@@ -48,8 +48,6 @@
   margin: 0px;
   padding: 0px;
   font-family: "Nunito";
-  font-style: "normal";
-  font-weight: 100;
 }
 
 html {
@@ -249,7 +247,7 @@ html {
   padding-left: 70px;
   padding-right: 70px;
   padding-top: 70px;
-  padding-bottom: 120px;
+  padding-bottom: 25px;
 }
 
 .about-section h1 {
