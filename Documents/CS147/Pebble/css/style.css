@@ -19,7 +19,7 @@
 }
 
 .process-header {
-  margin-top: 70px;
+  /*margin-top: 70px;*/
 }
 
 .process-footer {
@@ -346,6 +346,7 @@ html {
   width: 100%;
   height: auto;
   margin-top: -180px;
+  padding-bottom: 70px;
 }
 .fh5co-features-outer .col-sm-4 {
   margin-top: 80px;
